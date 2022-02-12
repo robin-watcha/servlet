@@ -1,0 +1,16 @@
+GET http://localhost:8080/hello?username=문
+Accept: application/json
+
+###
+GET http://localhost:8080/request-header?username=hello
+
+###
+GET http://localhost:8080/request-param?username=hello&age=20
+
+###
+GET http://localhost:8080/request-body-json
+Accept: application/json
+
+{
+  "username": "hello", "age": 20
+}
